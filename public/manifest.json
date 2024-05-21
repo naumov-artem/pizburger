@@ -1,8 +1,8 @@
 {
   "name": "Pizburger",
   "short_name": "pizburger",
-  "theme_color": "#060606",
-  "background_color": "#060606",
+  "theme_color": "#fff",
+  "background_color": "#fff",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
