@@ -1,0 +1,9 @@
+{
+  "theme_color": "#060606",
+  "background_color": "#060606",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "pizburger",
+  "short_name": "pizburger"
+}
