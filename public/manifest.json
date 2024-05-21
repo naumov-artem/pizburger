@@ -2,8 +2,17 @@
   "theme_color": "#060606",
   "background_color": "#060606",
   "display": "standalone",
+  "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
   "name": "pizburger",
-  "short_name": "pizburger"
+  "short_name": "pizburger",
+  "icons": [
+    {
+      "src": "public/logo.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
