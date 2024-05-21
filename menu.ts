@@ -36,4 +36,13 @@ export const menu: Array<ProductType> = [
     other: [],
     price: 150,
   },
+  {
+    id: 4,
+    title: "Пицца тропикано",
+    image: "/pizza/3.png",
+    description: "hi",
+    compound: ["томатный соус", "моцарелла", "ананасы"],
+    other: [],
+    price: 150,
+  }
 ];
