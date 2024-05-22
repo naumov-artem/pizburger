@@ -14,12 +14,12 @@ export const BasketProduct: FunctionComponent<BasketProductProps> = ({
     <div
       style={{
         display: "flex",
-        maxHeight: 200,
         marginTop: 20,
         width: "100%",
         boxSizing: "border-box",
         boxShadow: "0px 2px 15px #cec2c2",
         borderRadius: "10px",
+        wordBreak: "break-word",
       }}
     >
       <img
@@ -32,10 +32,10 @@ export const BasketProduct: FunctionComponent<BasketProductProps> = ({
           flexShrink: 0,
         }}
       />
-      <div style={{ marginLeft: 10 }}>
-        <h2 style={{ marginTop: 10 }}>{product.title}</h2>
-        <p>{product.compound.join(", ")}</p>
-        <p>
+      <div style={{ marginLeft: 10, paddingRight: 20 }}>
+        <h2 style={{ marginTop: 20, marginBottom: 10 }}>{product.title}</h2>
+        <p style={{ margin: "10px 0" }}>{product.compound.join(", ")}</p>
+        <p style={{ margin: "10px 0" }}>
           {product.price.toLocaleString("ru-RU", {
             style: "currency",
             currency: "RUB",
